@@ -1,10 +1,10 @@
-def Power(a, b, m):
+def Power(a, b, m):    # a^b % m を計算
 	p = a
 	Answer = 1
 	for i in range(30):
 		wari = 2 ** i
 		if (b // wari) % 2 == 1:
-			Answer = (Answer * p) % m # a の 2^i 乗が掛けられるとき
+			Answer = (Answer * p) % m
 		p = (p * p) % m
 	return Answer
 
