@@ -1,0 +1,22 @@
+デバッグ(ディレクトリに移動してから)
+oj t -c "python3 a.py" -d tests 
+
+提出(ディレクトリに移動してから)
+acc submit a.py
+
+--------------------------------------
+
+問題追加
+acc add
+
+コンテストの問題全部をまとめて作成する設定
+acc config default-task-choice all
+
+ログイン
+oj login -u ユーザー名 -p パスワード "https://atcoder.jp/"
+
+ログインチェック
+oj login --check "https://atcoder.jp/"
+
+ディレクトリ作成(IDはURLのcontest/id/...)
+acc new コンテストID (abc188)
